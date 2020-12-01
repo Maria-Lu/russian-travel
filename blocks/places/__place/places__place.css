@@ -1,0 +1,19 @@
+.places__place {
+  margin: 0 0 86px;
+}
+
+.places__place:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    margin: 0 0 73px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .places__place {
+    margin: 0 0 66px;
+  }
+}

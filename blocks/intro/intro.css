@@ -1,0 +1,36 @@
+.intro {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 690px 1fr;
+  grid-template-rows: repeat(3, min-content);
+  padding: 0 0 94px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: 76.875%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+   width: 93.75%;
+   grid-template-columns: 1fr;
+   padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    width: 90%;
+    padding: 0 0 66px;
+   }
+}
